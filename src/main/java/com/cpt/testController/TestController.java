@@ -11,4 +11,10 @@ public class TestController {
 		return "Hello Spring Boot";
 		
 	}
+	
+	@GetMapping("/bye")
+	public String bye() {
+		return "bye Spring Boot";
+		
+	}
 }
